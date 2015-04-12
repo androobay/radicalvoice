@@ -1,0 +1,53 @@
+html {
+  background: steelblue;
+  color: #eee;
+  height: 100%; }
+
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+h1 {
+  font-family: "Oswald";
+  font-weight: 400; }
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.9em; }
+
+.menu-list a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 5px; }
+
+.main-logo {
+  padding: 20px; }
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center; }
+
+p {
+  font-family: "Open Sans";
+  line-height: 2;
+  font-size: 0.9em; }
+
+audio {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0; }
+
+audio::-webkit-media-controls-enclosure {
+  max-width: 100%; }
+
+.about {
+  padding: 1em 0; }
+
+footer {
+  padding-bottom: 30px; }
