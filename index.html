@@ -24,24 +24,53 @@
     <header>
       <div class="main-container">
         <nav>
-          <a href="/">Logo</a>
-          <a href="/">Home</a>
-          <a href="about">About</a>
-          <a href="#">Contact</a>
+          <div class="main-logo">
+            <a href="/"><img src="../img/logo.png" alt="Radical Voice logo"></a>
+          </div>
+          <div class="menu-list">
+            <a href="/">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+          </div>
         </nav>
       </div>
+
     </header>
     <div class="main-container">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae qui possimus soluta reiciendis aliquid cum quaerat modi, dolor alias nesciunt autem harum distinctio nisi quo. Fugit quas nobis laudantium libero.</p>
       <h3>About</h3>
     </div>
-    <p>Hello world! This is HTML5 Boilerplate.</p>
 
+
+    <div class="banner">
+      <ul>
+          <li>This is a slide.</li>
+          <li>This is another slide.</li>
+          <li>This is a final slide.</li>
+      </ul>
+    </div>
+
+    <footer>
+      <div class="main-container">
+        <small>&copy; 2015 Rene Ahillon. All Rights Reserved.</small>
+      </div>
+    </footer>
+
+    <audio controls>
+      <source src="audio/ahillon-showreel.mp3" type="audio/mpeg" preload="none">
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="http://unslider.com/unslider.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
+    <script>
+      $(document).ready(function() {
+        $('.banner').unslider();
+    });
+    </script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
         (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
