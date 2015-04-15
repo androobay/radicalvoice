@@ -37,22 +37,28 @@
 
     </header>
     <div class="main-container contact">
-      <h1>Contact</h1>
+      <h1>CONTACT FORM</h1>
+
       <form action="//formspree.io/contact@andrewbonifacio.com">
-      <input type="text" name="name" placeholder="Name"><br>
-      <input type="email" name="_replyto"><br>
-      <input type="text" name="_subject"><br>
-      <select name="Quote" id="">
-        <option selected disabled>Quote</option>
-        <option value="">$100</option>
-        <option value="">$100 - $300</option>
-        <option value="">$300+</option>
-      </select><br>
-      <textarea name="" id="" rows="4" name="_message"></textarea><br>
-      <input type="submit" value="Send">
-      <input type="text" name="_gotcha" style="display:none" />
-    </form>
-    <p>Or call me on <a href="tel:+61450250792">0450 250 792</a></p>
+        <div class="contact-details">
+          <input type="text" name="name" placeholder="Name"><br>
+          <input type="email" name="_replyto" placeholder="Email"><br>
+          <input type="text" name="_subject" placeholder="Subject"><br>
+          <select name="" id="">
+            <option selected disabled>Choose a quote</option>
+            <option value="">$100</option>
+            <option value="">$100 - $300</option>
+            <option value="">$300+</option>
+          </select><br>
+        </div>
+        <div class="contact-message">
+          <textarea name="" id="" name="_message" placeholder="Tell me about your project"></textarea><br>
+        </div>
+        <div class="contact-submit">
+          <input type="submit" value="Send">
+          <input type="text" name="_gotcha" style="display:none" />
+        </div>
+      </form>
     </div>
 
     <footer>
