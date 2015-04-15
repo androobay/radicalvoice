@@ -65,6 +65,7 @@ p
   font-family: $paragraph
   line-height: 2
   font-size: 0.8em
+  text-transform: uppercase
   @media screen and (min-width: 700px)
     font-size: 0.9em
 audio
@@ -111,3 +112,78 @@ footer
   //justify-content: center
 .client-logos img
   margin: 1em 20px 1em 20px
+.contact
+  background: rgba(0,0,0,0.3)
+  border-radius: 5px
+  padding-bottom: 40px
+  margin-top: 100px
+  //border: 1px solid pink
+  @media screen and (min-width: 700px)
+    margin-top: 50px
+
+input[type="text"], input[type="email"]
+  padding: 5px
+  margin-bottom: 10px
+  border-radius: 5px
+  border: none
+  color: #fff
+  width: 90%
+  height: 30px
+  font-size: 0.9em
+  background-color: rgba(255,255,255,0.2)
+  float: left
+  margin-left: 15px
+  border: 2px solid rgba(255,255,255,0.2)
+  @media screen and (min-width: 700px)
+    width: 80%
+input[type="text"]:focus, input[type="email"]:focus
+  background: #fff
+  color: #000
+select
+  width: 90%
+  height: 20px
+  float: left
+  margin-left: 20px
+  @media screen and (min-width: 700px)
+    width: 80%
+.contact-details, .contact-message
+  width: 100%
+  @media screen and (min-width: 700px)
+    float: left
+    width: 50%
+
+textarea
+  width: 90%
+  height: 140px
+  border-radius: 5px
+  border: none
+  padding: 0
+  margin-left: 20px
+  float: left
+  background-color: rgba(255,255,255,0.2)
+  margin-top: 10px
+  border: 2px solid rgba(255,255,255,0.2)
+  @media screen and (min-width: 700px)
+    width: 90%
+    //float: left
+textarea:focus
+  background: #fff
+  color: #000
+input[type="submit"]
+  //float: right
+  padding: 10px
+  border-radius: 5px
+  color: #fff
+  //margin-top: 10px
+  display: block
+  //margin-right: 20px
+  margin: 0 auto
+  float: right
+  background: rgba(255,255,255,0.2)
+  border: 2px solid rgba(255,255,255,0.2)
+  width: 100px
+  height: 37px
+  @media screen and (min-width: 700px)
+    display: block
+    margin-right: 20px
+    margin-top: 10px
